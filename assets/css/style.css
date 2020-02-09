@@ -1,0 +1,158 @@
+/*color variables start*/
+/*color variables end*/
+/*Default style start*/
+body {
+  font-size: 1.1em;
+  line-height: 1.6em;
+  color: #4a4a4a;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*Default style end*/
+/*common style start*/
+.section-title h2 {
+  text-transform: capitalize;
+  font-size: 1.8em;
+  text-align: center;
+  color: purple;
+}
+
+.blank-space {
+  height: 55px;
+}
+
+/*common style end*/
+header {
+  background: purple;
+  text-align: center;
+  -webkit-box-shadow: 0 5px 10px;
+  -moz-box-shadow: 0 5px 10px;
+  box-shadow: 0 5px 10px #999;
+}
+header a {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  padding: 10px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+header a img {
+  width: 100%;
+}
+
+header.fixed-top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+header.fixed-top a {
+  width: 70px;
+  height: 70px;
+  padding: 7px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+section.request-taxi {
+  text-align: center;
+}
+section.request-taxi .input-field i.left {
+  margin-right: 5px;
+  color: purple;
+}
+section.request-taxi button {
+  background: purple;
+}
+section.request-taxi button:focus {
+  background: purple;
+}
+
+div#table-modal {
+  width: 90%;
+}
+div#table-modal .modal-content {
+  padding: 10px;
+}
+div#table-modal .modal-content h3 {
+  color: purple;
+  font-size: 1.7em;
+  text-transform: capitalize;
+  border-bottom: 2px solid purple;
+  padding-bottom: 10px;
+}
+div#table-modal .modal-content button {
+  margin-bottom: 5px;
+}
+div#table-modal .modal-content button:focus {
+  background: #1C7BC3;
+}
+div#table-modal .modal-footer {
+  /*text-align: center !important;*/
+}
+div#table-modal .modal-footer a {
+  background: purple;
+}
+div#table-modal .modal-footer a:focus {
+  background: #1C7BC3;
+}
+
+section.requested-taxi-section {
+  min-height: 315px;
+}
+
+.requested-taxi .single-rt {
+  padding: 15px 10px;
+  margin-bottom: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+}
+.requested-taxi .single-rt .accepted {
+  color: #1C7BC3;
+}
+.requested-taxi .single-rt .pending {
+  color: purple;
+}
+
+footer {
+  background: purple;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  color: #fff;
+  text-transform: capitalize;
+  -webkit-box-shadow: 0 -5px 10px;
+  -moz-box-shadow: 0 -5px 10px;
+  box-shadow: 0 -5px 10px #999;
+  z-index: 10;
+}
+footer a {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */

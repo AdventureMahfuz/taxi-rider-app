@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Taxi Rider app</title>
+    <link rel="stylesheet" href="assets/css/material-icon.css">
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header>
+    <div class="container">
+        <a href="index.html">
+            <img src="assets/images/logo.png" alt="">
+        </a>
+    </div>
+</header>
+<section class="request-taxi">
+    <div class="container">
+        <div class="section-title">
+            <h2>make request for taxi</h2>
+        </div>
+        <form action="#">
+            <div class="input-field">
+                <input id="table" type="text" class="validate modal-trigger" data-target="table-modal">
+                <label for="table"><i class="material-icons left">directions_car</i> Select A Table</label>
+            </div>
+            <!--Table Modal -->
+            <div id="table-modal" class="modal">
+                <div class="modal-content">
+                    <h3 class="center">Pick a table</h3>
+                    <div class="table-list">
+                        <button class="waves-effect waves-light btn">table 1</button>
+                        <button class="waves-effect waves-light btn">table 2</button>
+                        <button class="waves-effect waves-light btn">table 3</button>
+                        <button class="waves-effect waves-light btn">table 4</button>
+                        <button class="waves-effect waves-light btn">table 5</button>
+                        <button class="waves-effect waves-light btn">table 6</button>
+                        <button class="waves-effect waves-light btn">table 1</button>
+                        <button class="waves-effect waves-light btn">table 2</button>
+                        <button class="waves-effect waves-light btn">table 3</button>
+                        <button class="waves-effect waves-light btn">table 4</button>
+                        <button class="waves-effect waves-light btn">table 5</button>
+                        <button class="waves-effect waves-light btn">table 6</button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn"><i class="material-icons center">check</i></a>
+                </div>
+            </div>
+            <div class="input-field">
+                <input id="people" type="text" class="validate">
+                <label for="people"><i class="material-icons left">people</i> People No</label>
+            </div>
+            <div class="input-field">
+                <input id="destination" type="text" class="validate">
+                <label for="destination"><i class="material-icons left">add_location</i> Destination (Search By Place Or Postcode)</label>
+            </div>
+            <button class="btn btn-large waves-effect waves-light" type="submit"
+                    name="action">
+                Request Taxi
+                <i class="material-icons right">send</i>
+            </button>
+        </form>
+    </div>
+</section>
+<section class="requested-taxi-section">
+    <div class="container">
+        <div class="requested-taxi">
+            <div class="section-title">
+                <h2>requested taxis</h2>
+            </div>
+            <div class="single-rt z-depth-1">
+                <span>table 5</span>
+                <span>Person 3</span>
+                <span>sr27ed</span>
+                <span class="pending">pending</span>
+            </div>
+            <div class="single-rt z-depth-1">
+                <span>table 10</span>
+                <span>Person 6</span>
+                <span>sr55ed</span>
+                <span class="pending">pending</span>
+            </div>
+            <div class="single-rt z-depth-1">
+                <span>table 1</span>
+                <span>Person 2</span>
+                <span>sr12sq</span>
+                <span class="accepted">accepted</span>
+            </div>
+            <div class="single-rt z-depth-1">
+                <span>table 2</span>
+                <span>Person 4</span>
+                <span>sr25sq</span>
+                <span class="accepted">accepted</span>
+            </div>
+            <div class="single-rt z-depth-1">
+                <span>table 2</span>
+                <span>Person 4</span>
+                <span>sr25sq</span>
+                <span class="accepted">accepted</span>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="blank-space"></div>
+<footer>
+    <div class="container">
+        <p>copyright &copy; 2020. all right reserved by <a href="#">taxi rider</a></p>
+    </div>
+</footer>
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/materialize.min.js"></script>
+<script src="assets/js/custom.js"></script>
+</body>
+</html>

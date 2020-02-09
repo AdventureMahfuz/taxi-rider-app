@@ -1,0 +1,39 @@
+header {
+  background: $primary;
+  text-align: center;
+  -webkit-box-shadow: 0 5px 10px;
+  -moz-box-shadow: 0 5px 10px;
+  box-shadow: 0 5px 10px #999;
+  a {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    padding: 10px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+header.fixed-top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  a {
+    width: 70px;
+    height: 70px;
+    padding: 7px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+  }
+}

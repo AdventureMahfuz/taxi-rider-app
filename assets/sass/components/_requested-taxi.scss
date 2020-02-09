@@ -1,0 +1,23 @@
+section.requested-taxi-section {
+  min-height: 315px;
+}
+.requested-taxi {
+  .single-rt {
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    .accepted{
+      color: $highlightColor;
+    }
+    .pending{
+      color: $primary;
+    }
+  }
+}
+
